@@ -4,3 +4,15 @@ __pycache__
 
 sudoku-[0-9]*.zip
 sudoku-result-[0-9]*.json
+
+# folders
+.ipynb_checkpoints/
+old_submits/
+final_submit/
+
+# single files
+.project
+.pydevproject
+Solution2.py.ipynb
+untitled
+

@@ -4,10 +4,17 @@
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
 A: *Student should provide answer here*
+	First we'll find all the cells containing two digits (len == 2). 
+	Then we'll find all the cells that contain the same double digits (naked twins).
+	Then we will identify all units that contain naked twin pairs.
+	After this initial setup we will iterate through naked twins and go through every peer 
+	in relevant units, and remove both digits (contained in naked twins) from these peers.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
 A: *Student should provide answer here*
+	The diagonal constraint is a new constraint entity similar to unit, row and column constraints. 
+	Thus the one reasonable approach would be to add a new diagonal unit to the unitlist. 
 
 ### Install
 
