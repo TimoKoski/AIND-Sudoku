@@ -1,3 +1,5 @@
+# original auto generated .gitignore
+
 .DS_Store
 __pycache__
 *.pyc
@@ -5,10 +7,13 @@ __pycache__
 sudoku-[0-9]*.zip
 sudoku-result-[0-9]*.json
 
+# end of original auto generated .gitignore
+
 # folders
 .ipynb_checkpoints/
 old_submits/
 final_submit/
+
 
 # single files
 .project
